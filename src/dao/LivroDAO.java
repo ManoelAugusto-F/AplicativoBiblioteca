@@ -11,10 +11,10 @@ import java.util.List;
 
 public class LivroDAO implements ILivroDAO {
 
-    private static final String SQL_INSERT = "insert into livros (EDITORA, TITULO,ISBN) VALUES (?,?,?)";
-    private static final String SQL_UPDATE = "update LIVROS set EDITORA = ?, TITULO = ?, ISBN = ? where ID = ?";
-    private static final String SQL_REMOVE = "delete from LIVROS where ID = ?";
-    private static final String SQL_FIND_ALL = "select * from LIVROS";
+    private static final String SQL_INSERT = "insert into Livros (EDITORA, TITULO,ISBN) VALUES (?,?,?)";
+    private static final String SQL_UPDATE = "update Livros set EDITORA = ?, TITULO = ?, ISBN = ? where ID = ?";
+    private static final String SQL_REMOVE = "delete from Livros where ID = ?";
+    private static final String SQL_FIND_ALL = "select * from Livros";
 
     @Override
     public int save(Livro livro) {

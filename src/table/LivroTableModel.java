@@ -52,10 +52,13 @@ public class LivroTableModel extends AbstractTableModel {
                 break;
             case COL_EDITORA:
                 coluna ="Editora";
+                break;
             case COL_TITULO:
                 coluna = "Titulo";
+                break;
             case COL_ISBN:
                 coluna = "ISBN";
+                break;
             default:
                 throw new IllegalArgumentException("Coluna Invalida!");
         }

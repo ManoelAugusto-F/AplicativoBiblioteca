@@ -45,11 +45,11 @@ public class DBConnect {
         Connection connection = getConnection();
         PreparedStatement stmt = null;
 
-        String sql = "CREATE TABLE IF NOT EXISTS LIVROS (" +
+        String sql = "CREATE TABLE IF NOT EXISTS Livros (" +
                 "ID bigint(20) NOT NULL AUTO_INCREMENT, " +
-                "EDITORA varchar(50) NOT NULL, " +
-                "TITULO varchar(50) NOT NULL, " +
-                "ISBN varchar(50) NOT NULL, " +
+                "Editora varchar(50) NOT NULL, " +
+                "Titulo varchar(50) NOT NULL, " +
+                "Isbn varchar(50) NOT NULL, " +
                 "PRIMARY KEY (ID)" +
                 ") ENGINE=InnoDB";
         try {
